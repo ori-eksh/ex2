@@ -22,7 +22,7 @@ int main() {
             scanf(" %d", &v);
 
             int y = shortestPath(u,v);
-            printf("\n%d", y);
+            printf("%d\n", y);
         }
 
         if(input == 'D') {
@@ -32,4 +32,3 @@ int main() {
     }
     return 0;
 }
-

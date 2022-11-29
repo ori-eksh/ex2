@@ -26,9 +26,9 @@ int matInput() {
 int isPath(int u, int v) {
 
     if (pathes[u][v]<= 0||pathes[u][v]==99999999)
-    { printf("\nFalse");}
+    { printf("False\n");}
     else
-    {  printf("\nTrue");}
+    {  printf("True\n");}
 return 1;
 }
 
@@ -67,5 +67,4 @@ void AlgoShortPath(int matrix [][matSize])
         }
     return;
     }
-
 
