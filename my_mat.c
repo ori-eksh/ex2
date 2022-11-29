@@ -11,7 +11,7 @@ int matInput() {
     for (int i = 0; i < matSize; i++) {
         for (int j = 0; j < matSize; j++) {
             int x;
-            scanf("%d", &x);
+            scanf(" %d", &x);
             matrix[i][j] = x;
             if((x == 0) && (i != j )) {
                 matrix[i][j] = Infimum;
@@ -67,4 +67,5 @@ void AlgoShortPath(int matrix [][matSize])
         }
     return;
     }
+
 
